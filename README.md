@@ -1,6 +1,6 @@
 # Salut, moi c'est Abdoul ! 👋
 
-Bienvenue sur mon profil ! Passionné par le développement d'applications, l'administration système Linux et la gestion de données, je conçois des solutions numériques concrètes pour répondre à des besoins communautaires et professionnels.
+Bienvenue sur mon profil ! Issu d'un parcours universitaire en **Systèmes, Réseaux et Télécommunications (Licence II)**, je combine des compétences d'administration infrastructure avec le développement d'applications pour concevoir des solutions numériques concrètes et sécurisées.
 
 ---
 
@@ -30,18 +30,22 @@ J'ai développé une application complète de **Tontine numérique** (gestion de
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-### 📊 Frameworks & Écosystème Web
+### 🌐 Systèmes, Réseaux & Télécoms (Licence II)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-115B8C?style=for-the-badge&logo=cisco&logoColor=white)
+* **Infrastructures :** Configuration d'interfaces réseau, routage, commutation, et adressage IP (IPv4/IPv6).
+* **Protocoles & Sécurité :** Modèle OSI, TCP/IP, DNS, DHCP, SSH et sécurisation des flux de données.
+* **Signal :** Traitement de signal (Séries de Fourier, intégrales de convolution) appliqué aux télécommunications.
+
+### 📊 Frameworks, DevOps & Conteneurs
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 🐧 Systèmes, Conteneurs & DevOps
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
 ## 🏥 Autre domaine de compétence
-* **Santé Communautaire :** Modélisation et traitement informatique des Systèmes d'Information Sanitaire (SIS), analyse des données d'enquêtes terrain et sensibilisation des populations.
+* **Santé Communautaire :** Modélisation et traitement informatique des Systèmes d'Information Sanitaire (SIS), analyse des données d'enquêtes terrain et déploiement de solutions d'information pour la prévention.
