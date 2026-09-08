@@ -12,12 +12,15 @@ Gestion de fonds d'entraide et cotisations locales, avec authentification sécur
 **Stack :** Laravel · MySQL · TailwindCSS/DaisyUI · Chart.js · DomPDF · Wave/Orange Money/YAS · Ollama (Llama 3)
 
 ### 🛒 `khadalah-tech` — Plateforme e-commerce conteneurisée
-Marketplace complète (catalogue, panier, commandes, paiements, suivi de livraison) avec panel d'administration Filament. Ce projet m'a servi de terrain d'apprentissage DevOps de bout en bout :
+Marketplace complète (catalogue, panier, commandes, paiements, suivi de livraison) avec panel d'administration Filament. Ce projet m'a servi de terrain d'apprentissage DevOps de bout en bout, avec un vrai cycle de débogage complet en conditions réelles :
 
 * **Conteneurisation complète** avec Docker (PHP-FPM, nginx, MySQL orchestrés via Docker Compose)
 * **Healthchecks** pour garantir la disponibilité réelle des services avant démarrage des dépendances
 * **Déploiement sur Kubernetes** (Minikube) : Deployments, Services, Secrets, ConfigMaps, PersistentVolumeClaims, initContainers, architecture multi-conteneurs par Pod
-* **CI/CD** avec GitHub Actions (build automatisé à chaque push)
+* **Ingress** pour l'exposition via nom de domaine, avec routage HTTP propre
+* **Scaling & Rolling Updates** : mise à l'échelle horizontale et déploiements sans interruption de service validés en conditions réelles
+* **CI/CD** avec GitHub Actions et runner self-hosted : build automatisé et déploiement Kubernetes déclenchés à chaque push
+* **Débogage de production** : résolution de conflits de dépendances (Tailwind v3/v4), gestion de secrets (APP_KEY), autorisations Filament (`canAccessPanel`), configuration réseau inter-conteneurs (hairpin NAT)
 * **Registre d'images** : publication sur Docker Hub
 
 **Stack :** Laravel · Filament · MySQL · Docker · Docker Compose · Kubernetes · nginx · GitHub Actions
@@ -43,8 +46,8 @@ API Express connectée à PostgreSQL, utilisée pour maîtriser les fondamentaux
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 * **Conteneurisation :** écriture de Dockerfiles optimisés (multi-layers, cache de build), Docker Compose multi-services, healthchecks, volumes persistants, réseaux internes et résolution DNS entre conteneurs
-* **Orchestration Kubernetes :** Deployments, Services, Secrets, ConfigMaps, PersistentVolumeClaims, initContainers, architecture Pods multi-conteneurs, débogage réseau (hairpin NAT, communication inter-conteneurs)
-* **CI/CD :** pipelines GitHub Actions (build automatisé, déclenchement sur push/PR)
+* **Orchestration Kubernetes :** Deployments, Services, Secrets, ConfigMaps, PersistentVolumeClaims, initContainers, Ingress, scaling horizontal, rolling updates sans interruption, architecture Pods multi-conteneurs, débogage réseau (hairpin NAT, communication inter-conteneurs)
+* **CI/CD :** pipelines GitHub Actions (build automatisé, déclenchement sur push/PR), runners self-hosted pour déploiement vers un cluster local
 * **Registres d'images :** publication et gestion d'images sur Docker Hub
 * **Interfaces de gestion :** Portainer (administration graphique de conteneurs Docker)
 
